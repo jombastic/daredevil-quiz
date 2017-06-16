@@ -4,13 +4,17 @@ body {
 h1 {
   color: #d80f33;
 }
-.btn, .form-group {
+.form-group {
   color: #fffcfc;
   background-color: #231e21;
 }
-.btn:hover {
+.btn {
   background-color: #fffcfc;
   color: #a90433;
+}
+.btn:hover {
+  color: #231e21;
+  background-color: #d80f33;
 }
 .form-group {
   padding: 1px 0 15px 15px;
@@ -22,4 +26,7 @@ h1 {
   padding-top: 0px;
   color: #a90433;
   background-color: #fffcfc;
+}
+#fisk, #murdock, #page, #nelson {
+  display: none;
 }
